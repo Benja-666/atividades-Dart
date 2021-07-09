@@ -10,3 +10,179 @@ if(numero <0) {
 }
 
 } 
+
+____________________________
+
+void main(){
+
+int number1 = 777;
+int number2 = 666;
+
+if(number1 <number2){
+  print("o numero 777 é menor que o 666");
+}else if(number1 == number2){
+  print("Os numeros são iguai");
+}else if(number1 >number2){
+  print("o numero 777 é maior que o 666");
+}
+
+}
+
+_____________________________
+
+void main(){
+
+double a = 2;
+double b = 4;
+double c = 5;
+
+double c1 =  (a + b *c);
+
+
+double c2 = (a + b / c);
+
+print (c1 == c2);
+
+}
+
+________________________________
+void main() {
+  
+  
+double nota1 = 3;
+double nota2 = 4;
+  
+double calculo = (nota1 + nota2) / 2;
+  
+String dados(){
+  return calculo >= 6
+ ? " Voce foi aprovado Aprovado"
+ : "Voce foi Reprovado";
+
+}
+
+print(dados());
+}
+___________________________________
+
+void main() {
+
+ double n1 = 7;
+ double n2 = 3;
+ double n3 = 4;
+ double n4 = 2;
+
+dynamic somaNotas = (n1 + n2 + n3 + n4) / 4;
+
+if(somaNotas >= 7){
+print('Aprovado');
+ }else{
+print('Reprovado');
+}  
+
+if(somaNotas >= 9) {
+print("A");
+ }else if(somaNotas >= 8 && somaNotas < 9) {
+print("B");
+ }else if(somaNotas >= 7 && somaNotas < 8) {
+ print("C");
+ }else{
+ print("F");
+ }
+}
+
+___________________________________
+
+
+void main(){
+  
+  
+double peso = 59;
+double altura = 1.77;
+  
+double calcularIMC = peso / (altura * altura) ;
+  
+   
+    if(calcularIMC >= 40) {
+       print("Obesidade - GRAU ||| (Mórbida)");
+    } else if (calcularIMC < 40 && calcularIMC >= 35) {
+      print("Obesidade - GRAU || (Severa)");
+    } else if (calcularIMC < 35 && calcularIMC >= 30) {
+       print ("Obesidade - GRAU |");
+    } else if (calcularIMC < 30 && calcularIMC >= 25) {
+       print ("Sobrepeso");
+    } else if (calcularIMC < 25 && calcularIMC >= 18.5) {
+      print ('Saudável');
+    } else if (calcularIMC < 18.5 && calcularIMC >= 17) {
+       print ("Magreza leve");
+    } else if (calcularIMC < 17 && calcularIMC >= 16) {
+      print ("Magreza moderada");
+      } else {
+     print ("Magreza grave");
+ }  
+}
+
+___________________________________
+
+
+void main(){
+
+double saldoConta = 250;
+double saldoSacar = 200;
+
+double saque = saldoConta - saldoSacar;
+
+ if(saque < 0) {
+   print("Saldo Indisponível");
+    } else {
+   print("Saque efetuado com sucesso!");
+    }
+}
+
+___________________________________
+
+void main(){
+int idade = 17;
+  
+  if(idade >= 0 && idade <= 12) {
+   print("Criança");
+    } else if(idade >= 13 && idade <= 21) {
+     print("Jovem");
+    } else if(idade >= 22 && idade <= 59) {
+     print("Adulto");
+    } else {
+      print("Terceira idade");
+    }
+  }
+  
+  ___________________________________
+  
+  void main(){
+  int peso = 59;
+  
+   if(peso < 60){
+     print('P');
+   }else if(peso >= 61 && peso <= 74){
+     print('M');
+   }else if(peso >= 75 && peso <= 85){
+     print('G');
+   }else {
+     print('GG');
+   }
+}
+
+ ___________________________________
+ 
+ void main(){
+  
+  double salario = 2400;
+  int meses = 12;
+  
+  double novoSalario = salario * 1.4;
+  
+    if(meses >= 12){
+      print("Novo Salário: $novoSalario");
+    }else{
+      print("Funcionário com menos de 1 ano na empresa");
+    }
+  }
